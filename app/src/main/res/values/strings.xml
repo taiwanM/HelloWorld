@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">HelloWorld</string>
+    <string name="Toast">Anne disse:</string>
+    <string name="mToast"> ola </string>
+    <string name="check">Check</string>
+    <string name="digite_algo">Digite algo</string>
+    <string name="show">Show</string>
 </resources>

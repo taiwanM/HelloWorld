@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customToastLayout"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent">
+    
+    <ImageView
+        android:id="@+id/customToastImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/Toast"
+        android:scaleType="fitCenter"
+        android:background="@drawable/toast"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/customToastMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/mToast"
+        android:text="Anne Disse: " />
+
+</LinearLayout>
